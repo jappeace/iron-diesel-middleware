@@ -5,7 +5,8 @@ authors = ["Darayus Nanavati <darayus.contact@gmail.com>"]
 
 [dependencies]
 
-iron = "0.5"
-diesel = { version = "0.10", features = ["postgres"] }
-r2d2 = "0.7"
-r2d2-diesel = "0.10"
+iron = "0.5.1"
+diesel = "0.15"
+
+r2d2 = "0.7.3"
+r2d2-diesel = {git = "https://github.com/jappeace/r2d2-diesel"}
